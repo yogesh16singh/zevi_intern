@@ -16,7 +16,7 @@ interface MultipleFilterType {
 }
 
 const Products = () => {
-    const [query, setQuery] = useState("a");
+    const [query, setQuery] = useState("");
     const [showBrandFilter, setShowBrandFilter] = useState(false);
     const [showPriceFilter, setShowPriceFilter] = useState(false);
     const [showRatingFilter, setShowRatingFilter] = useState(false);
