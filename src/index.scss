@@ -19,3 +19,7 @@ body {
   box-sizing: border-box;
   font-family: $font-stack;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

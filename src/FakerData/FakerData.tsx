@@ -23,7 +23,7 @@ export const fetchLatestTrendData = () => {
 
     for (let i = 1; i <= 5; i++) {
         latestTrends.push({
-            productImg: faker.image.people(300, 400, true),
+            productImg: faker.image.urlLoremFlickr({ category: 'people', width: 400, height: 300 }),
             productName: faker.commerce.productName(),
         });
     }
