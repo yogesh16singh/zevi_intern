@@ -1,3 +1,3 @@
 # E-commerce Assignment
 
-Implemented , Fetching , Rendering , Searching , Multiple Filters
+Implemented Fetching , Rendering , Searching , Multiple Filters
